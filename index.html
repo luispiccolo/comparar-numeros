@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-*">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NUMERAO GRANDAO</title>
+
+    Primeiro numero <input id="num1" type="number"> <br/>
+    Segundo numero <input id="num2" type="number"> <br/>
+    <button onclick="comparacao()">APERTE AQUI PARA COMPARAR</button>
+
+    <script type="text/javascript">
+        function comparacao(){
+            var num1 = parseFloat(document.getElementById("num1").value)
+            var num2 = parseFloat(document.getElementById("num2").value)
+            if(num1>=num2)
+
+            alert(`NUMERAO ${num1} É O MAIORAL!`)
+            else
+            alert(`NUMERAO ${num2} É O MAIORAL!`)
+        }
+    </script>
+</head>
+</html>
